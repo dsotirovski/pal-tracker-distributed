@@ -13,3 +13,4 @@ applications:
   - tracker-circuit-breaker-dashboard
   - tracker-sso
   - tracker-sso
+  - tracker-config-server
