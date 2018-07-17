@@ -152,6 +152,7 @@ public class FlowTest {
         );
         long createdTimeEntryId = findResponseId(response);
         assertThat(createdTimeEntryId).isGreaterThan(0);
+        
 
         response = httpClient.get(timesheetsServerUrl("/time-entries?projectId" + createdProjectId));
         assertThat(response.body).isNotNull().isNotEmpty();
